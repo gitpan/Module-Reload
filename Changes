@@ -1,0 +1,17 @@
+Revision history for Perl module Module::Reload
+
+1.08 2014-06-08 NEILB
+    - Got rid of each on %INC, since we might delete from %INC, so each
+      is unsafe.
+    - Added Changes file
+    - Added standard doc sections for author, license, and repository
+    - Added some entries to SEE ALSO
+    - Switched to Dist::Zilla, moving Reload.pm into lib/Module/ in the process
+
+1.07 1998-08-20 JPRIT
+
+1.06 1998-07-30 JPRIT
+
+1.05 1998-07-28 JPRIT
+    - First release to CPAN
+
